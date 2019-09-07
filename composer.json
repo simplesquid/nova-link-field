@@ -1,6 +1,5 @@
 {
     "name": "simplesquid/nova-link-field",
-    "version": "0.0.4",
     "license": "MIT",
     "description": "A Laravel Nova Link field. Fork of khalin/nova-link-field.",
     "keywords": [
