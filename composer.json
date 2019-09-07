@@ -1,0 +1,39 @@
+{
+    "name": "simplesquid/nova-link-field",
+    "version": "0.0.4",
+    "license": "MIT",
+    "description": "A Laravel Nova Link field. Fork of khalin/nova-link-field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "link"
+    ],
+    "authors": [
+        {
+            "name": "Matthew Poulter",
+            "email": "matthew.poulter@simplesquid.co.za",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleSquid\\Nova\\Fields\\Link\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SimpleSquid\\Nova\\Fields\\Link\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
